@@ -101,5 +101,9 @@
 
 ##### To express this all into coding requires both vocab and syntax, as well as a firm understanding of what needs to be accomplished. This requires logical and deductive reasoning.
 
+##### Utilizing a flowchart is an excellent way to combine tasks and steps into a logical picture which can be rendered into code.
 
+### Objects and Properties
+
+##### 
 
