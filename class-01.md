@@ -47,5 +47,23 @@
 
 ### HTML5
 
+##### No longer uses elements like div
 
+##### Headers contain the site name and footers contain copywright information
+
+##### Nav contains navigation blocks. They don't count as major blocks unless you put them under their own nav element
+
+##### Articles are inside their own article elements. They can also be nested inside each other.
+
+##### Asides inside articles have additional info, outside articles they contain info for the entire page.
+
+##### Sections groups related items together and can split up articles for ease of reading.
+
+##### Heading groups can group together h1 - h6 headings into a single heading.
+
+##### Figures should be used when content refrences the element, not something important.
+
+##### While div is largely replaced, it can be used if no suitable element works for a particular part of the page.
+
+###
 
