@@ -65,5 +65,23 @@
 
 ##### While div is largely replaced, it can be used if no suitable element works for a particular part of the page.
 
+### Who to create a website for?
+
+#####  One must know the target audience when creating a webpage, particularly regarding its information structure.
+
+##### Understand why people visit your site and what they are trying to achieve.
+
+###### Also consier what info visitors need and the frequency they visit your site.
+
+##### This all feeds into information prioritization, with the most important information found first.
+
+##### You can accomplish this through site maps, which can be planned out by utilizing wireframes.
+
+### Wireframes
+
+##### These are sketches of important info that will be on a site, and where it is going to be placed.
+
+##### Helps developers understand where in the HTML info goes.
+
 ###
 
