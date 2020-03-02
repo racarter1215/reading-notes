@@ -83,5 +83,23 @@
 
 ##### Helps developers understand where in the HTML info goes.
 
-###
+### JavaScript
+
+##### Scripts are instructions that tell the computer what to do when website visitors do something on the page, including going to it.
+
+##### Scripts can be seen as recipies, and require that much detail for it to work on a site.
+
+##### Scripts need to be written by understanding your goal and the tasks that lead to its successful conclusion.
+
+### Tasks
+
+##### These can be expressed as "does this need to get done"? "If yes, then this, if no, then that"
+
+### Steps
+
+##### These can be epressed as "dummy proof" sequences of actions that need to take place to complete a procedure.
+
+##### To express this all into coding requires both vocab and syntax, as well as a firm understanding of what needs to be accomplished. This requires logical and deductive reasoning.
+
+
 
