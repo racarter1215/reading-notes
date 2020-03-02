@@ -105,5 +105,11 @@
 
 ### Objects and Properties
 
-##### 
+##### Objects are the computer representation of physical things, which can be counted by "instances"
+
+##### Properties are common characteristics of objects, like planes or clothing.
+
+##### Events are how people interact with objects, and programmers use these to decide on what happens when a user triggers them. Basically, when someone does something on a site, its an event. Programmers anticipate events with programming further events.
+
+##### Methods represent how people interact with something in reality. This is seen in code by the multitiude of taks to complete an event.
 
