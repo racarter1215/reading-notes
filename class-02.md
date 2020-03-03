@@ -50,5 +50,25 @@
 
 ### JavaScript basics
 
+##### Each script step is a "statement". Each statement ends with a semicolon.
+
+##### Comments within code help explain what each script does and makes it easier for other developers to understand.
+
+##### Variables are temporary pieces of information JavaScript can use to help run a task. Variables are expressed as "var =" and can be anything, so long as you include the variable name in subsequent code.
+
+##### Var is a keyword, and the following word, such as "quantity", is a variable name (this can be literally anything). The "=" assigns the variable name to a variable value, which follows the "="
+
+### Data Types
+
+##### Numeric, String, and Boolean
+
+##### Numeric types are straightforward, you assign a number value, and that's what it is.
+
+##### Strings are values in straight quotes, and can be numbers or words
+
+##### Boolean are true/false, yes/no questions, and require further logic to work out in code.
+
+### Decisions and loops
+
 ##### 
 
