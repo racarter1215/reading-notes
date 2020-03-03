@@ -16,4 +16,20 @@
   
 ##### White space in line doesn't matter, the browser collapses them. That way code doesn't mess with what the user sees.
 
+##### Line breaks are written like <br />, and serve as an "enter" key in code (at least as it shows to the browser user)
+
+##### Horizontal rules can be added with <hr />. This allows you to make whatever you want within a section (see p.48 for an example)
+
+##### Strong emphasis is written as <strong>. Less strong emphasis is written as <em>
+  
+##### Quotations can be written either as <blockquote> or <q>, depending on how much of a section of writing you want quoted.
+  
+##### You can abbreviate by writing <abbr> after the abbreviation is used
+  
+##### One can cite by writing <cite></cite> for whatever work you are using, it will render as italicized.
+
+##### For authors, you can put their informaiton in <address>, so it's contained in one area.
+  
+##### You can "line out" text in paragraphs using the <del>, and underline something with <ins>
+  
 ##### 
