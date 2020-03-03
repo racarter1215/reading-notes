@@ -70,5 +70,9 @@
 
 ### Decisions and loops
 
-##### 
+##### Decision making usually boils down to yes/no or true/false statements, which lead to further logic statements and, ultimately, the desired effect in code.
+
+##### A list of comparison operators can be found on p.150-151.
+
+
 
