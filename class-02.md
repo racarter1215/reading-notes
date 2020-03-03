@@ -32,4 +32,23 @@
   
 ##### You can "line out" text in paragraphs using the <del>, and underline something with <ins>
   
+### CSS Structure
+
+##### Imagine it as an "invisible box" around each element in an HTML, and that you can manipulate it as such
+
+##### We use selectors (p, h1, header, etc.) and declarations (font-family:, background-color:, color:, etc.)
+
+##### Curly brackets are used to contain CSS code both in HTML and in CSS documents.
+
+##### External CSS are documents attached to HTML via a link found in the head.
+
+##### Internal CSS are within the HTML documenet itself and are either found in style, which affects the whole document, or inline, which affects the specific portion it is within.
+
+##### List of CSS selectors on p. 238
+
+##### Order of precedence is termed as "cascading". If you write a rule that affects p, for example, after another rule that affects p, it overrules it.
+
+### JavaScript basics
+
 ##### 
+
