@@ -59,4 +59,22 @@
 ##### Example: var quayHotel = new Hotel('Quay', 40, 25);
 ##### Example: var partkHotel = new Hotel('Park', 120, 77);
 
+### It is a keyword
+
+##### example: function windowSize() {
+##### var width = this.innerWidth;
+##### var height = this.innerHeight;
+##### return [height, width];
+##### };
+
+##### "this" can also call global variables!!!!
+
+### Built in objects
+
+##### Browswer Object Model
+
+##### Document Object Model
+
+##### Global Javascript Objects
+
 
