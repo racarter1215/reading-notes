@@ -67,3 +67,11 @@
 
 ##### Event Handling happens in 3 steps: select the element node(s) you want the script to respond to, indicate which event on the selected node(s) will trigger the response, and state the code you want to run when the event occurs.
 
+##### To summarize: Event handling = select element, speicfy event, call code
+
+##### 3 ways to bind an event to an element: HTML event handlers (see page 251), Traditional DOM Event Handlers (see p252) and DOM level 2 event Listeners (see page 254)
+
+##### DO NOT USE HTML EVENT HANDLER ATTRIBUTES!!!!!!!!!!!!
+
+##### Traditional DOM Event Handlers = element.onevent = functionName; (element is element, on event is event, and functionName is code)
+
