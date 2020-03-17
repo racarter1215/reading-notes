@@ -10,4 +10,40 @@
   
 ##### Canvas REQUIRES a closing /canvas tag. Also, if the browser doesn't read canvas, you can always add image/alt information within the code
 
-##### 
+##### The fallback content is displayed in browsers which do not support <canvas>. Scripts can also check for support programmatically by simply testing for the presence of the getContext() method. Our code snippet from above becomes something like this:
+
+var canvas = document.getElementById('tutorial');
+
+if (canvas.getContext) {
+  var ctx = canvas.getContext('2d');
+  // drawing code here
+} else {
+  // canvas-unsupported code here
+}
+
+##### A skeleton template
+Here is a minimalistic template, which we'll be using as a starting point for later examples.
+
+Note: it is not good practice to embed a script inside HTML. We do it here to keep the example concise.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Canvas tutorial</title>
+    <script type="text/javascript">
+      function draw() {
+        var canvas = document.getElementById('tutorial');
+        if (canvas.getContext) {
+          var ctx = canvas.getContext('2d');
+        }
+      }
+    </script>
+    <style type="text/css">
+      canvas { border: 1px solid black; }
+    </style>
+  </head>
+  <body onload="draw();">
+    <canvas id="tutorial" width="150" height="150"></canvas>
+  </body>
+</html>
