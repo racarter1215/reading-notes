@@ -26,8 +26,8 @@ Here is a minimalistic template, which we'll be using as a starting point for la
 
 Note: it is not good practice to embed a script inside HTML. We do it here to keep the example concise.
 
-<!DOCTYPE html>
-<html>
+### !DOCTYPE html>
+##### html>
   <head>
     <meta charset="utf-8"/>
     <title>Canvas tutorial</title>
@@ -47,3 +47,10 @@ Note: it is not good practice to embed a script inside HTML. We do it here to ke
     <canvas id="tutorial" width="150" height="150"></canvas>
   </body>
 </html>
+
+### Drawing Shapes
+
+##### The grid
+Before we can start drawing, we need to talk about the canvas grid or coordinate space. Our HTML skeleton from the previous page had a canvas element 150 pixels wide and 150 pixels high. To the right, you see this canvas with the default grid overlayed. Normally 1 unit in the grid corresponds to 1 pixel on the canvas. The origin of this grid is positioned in the top left corner at coordinate (0,0). All elements are placed relative to this origin. So the position of the top left corner of the blue square becomes x pixels from the left and y pixels from the top, at coordinate (x,y). Later in this tutorial we'll see how we can translate the origin to a different position, rotate the grid and even scale it, but for now we'll stick to the default.
+
+
