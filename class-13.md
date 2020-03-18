@@ -27,10 +27,42 @@
 
 ### Check for HTML5 Storage
 
-##### function supports_html5_storage() {
-#####  try {
-#####    return 'localStorage' in window && window['localStorage'] !== null;
-#####  } catch (e) {
-#####   return false;
-#####  }
-#####}
+#####   function supports_html5_storage() {
+#####   try {
+#####     return 'localStorage' in window && window['localStorage'] !== null;
+#####   } catch (e) {
+#####     return false;
+#####   }
+##### }
+
+##### you can also use modernizr:
+
+#####  if (Modernizr.localstorage) {
+#####// window.localStorage is available!
+##### } else {
+#####   // no native support for HTML5 storage :(
+#####   // maybe try dojox.storage or a third-party solution
+##### }
+
+### Using HTML5 Storage
+
+##### HTML5 Storage is based on named key/value pairs. You store data based on a named key, then you can retrieve that data with the same key. The named key is a string. The data can be any type supported by JavaScript, including strings, Booleans, integers, or floats. However, the data is actually stored as a string. If you are storing and retrieving anything other than strings, you will need to use functions like parseInt() or parseFloat() to coerce your retrieved data into the expected JavaScript datatype.
+
+##### interface Storage {
+#####   getter any getItem(in DOMString key);
+#####   setter creator void setItem(in DOMString key, in any data);
+##### };
+##### Calling setItem() with a named key that already exists will silently overwrite the previous value. Calling getItem() with a non-##### existent key will return null rather than throw an exception.
+
+##### Like other JavaScript objects, you can treat the localStorage object as an associative array. Instead of using the getItem() and ##### setItem() methods, you can simply use square brackets. For example, this snippet of code:
+
+##### var foo = localStorage.getItem("bar");
+##### // ...
+##### localStorage.setItem("bar", foo);
+##### …could be rewritten to use square bracket syntax instead:
+
+##### var foo = localStorage["bar"];
+##### // ...
+##### localStorage["bar"] = foo;
+
+##### The storage event is fired on the window object whenever setItem(), removeItem(), or clear() is called and actually changes something.
