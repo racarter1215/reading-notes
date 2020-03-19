@@ -129,5 +129,5 @@
 #####         transform: scale(1.3);
 ##### }
 
-##### 
+##### The rest of these simle tricks are found at: https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/.
 
