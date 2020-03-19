@@ -99,6 +99,35 @@
 ##### }
 #####  </style>
 
+##### Fade In:
+##### Fade in effects are coded in two steps: first, you set the initial state; next, you set the change, for example on hover:
 
+##### .fade
+##### {
+#####         opacity:0.5;
+##### }
+##### .fade:hover
+##### {
+#####         opacity:1;
+##### }
 
+##### Change color
+##### Animating a change of color used to be unbelievably complex, with all kinds of math involved in calculating separate RGB values ##### and then recombining them. Now, we just set the div’s class to “color” and specify the color we want in our CSS:
+
+##### .color:hover
+##### {
+#####         background:#53a7ea;
+##### }
+
+##### Grow & Shrink
+##### Set your div’s class to “grow” and then add this code to your style block:
+
+##### .grow:hover
+##### {
+#####         -webkit-transform: scale(1.3);
+#####         -ms-transform: scale(1.3);
+#####         transform: scale(1.3);
+##### }
+
+##### 
 
